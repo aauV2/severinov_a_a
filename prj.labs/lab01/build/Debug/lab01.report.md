@@ -1,8 +1,8 @@
 ## Работа 1. Исследование гамма-коррекции
 автор: Полевой Д.В.
-дата: 
+дата: 2022-02-26T18:01:31
 
-<!-- url: https://gitlab.com/2021-misis-spring/polevoy_d_v/-/tree/master/prj.labs/lab01 -->
+<!-- url: https://github.com/aauV2/severinov_a_a/tree/main/prj.labs/lab01 -->
 
 ### Задание
 1. Сгенерировать серое тестовое изображение $I_1$ в виде прямоугольника размером 768х60 пикселя с плавным изменение пикселей от черного к белому, одна градация серого занимает 3 пикселя по горизонтали.
@@ -14,6 +14,7 @@
 ### Результаты
 
 ![](lab01.png)
+
 Рис. 1. Результаты работы программы (сверху вниз $I_1$, $G_1$, $G_2$)
 
 ### Текст программы
@@ -84,7 +85,7 @@ cv::Mat task4(cv::Mat& img1,cv::Mat& img2,cv::Mat& img3) {
   img1.copyTo(img(cv::Rect(0, 0, img1.cols, img1.rows)));
   img2.copyTo(img(cv::Rect(0, img1.rows, img2.cols, img2.rows)));
   img3.copyTo(img(cv::Rect(0, img1.rows+img2.rows, img3.cols, img3.rows)));
-  cv::imwrite("lab01_4.png", img);
+  cv::imwrite("lab01.png", img);
   cv::imshow("Display Image 4", img);
   return img;
 }

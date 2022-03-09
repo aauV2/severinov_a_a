@@ -1,8 +1,9 @@
 ## Работа 2. Исследование каналов и JPEG-сжатия
 автор: Полевой Д.В.
-дата: 
+дата: 2022-03-01T19:21:08
 
-<!-- url: https://gitlab.com/2021-misis-spring/polevoy_d_v/-/tree/master/prj.labs/lab02 -->
+
+<!-- url: https://github.com/aauV2/severinov_a_a/tree/main/prj.labs/lab02 -->
 
 ### Задание
 1. В качестве тестового использовать изображение data/cross_0256x0256.png
