@@ -1,0 +1,9 @@
+D:/progects_visual_studio/image_processing/prj.labs/lab01/build/CMakeFiles/Experimental.dir
+D:/progects_visual_studio/image_processing/prj.labs/lab01/build/CMakeFiles/Nightly.dir
+D:/progects_visual_studio/image_processing/prj.labs/lab01/build/CMakeFiles/Continuous.dir
+D:/progects_visual_studio/image_processing/prj.labs/lab01/build/CMakeFiles/NightlyMemoryCheck.dir
+D:/progects_visual_studio/image_processing/prj.labs/lab01/build/CMakeFiles/lab01.dir
+D:/progects_visual_studio/image_processing/prj.labs/lab01/build/CMakeFiles/PACKAGE.dir
+D:/progects_visual_studio/image_processing/prj.labs/lab01/build/CMakeFiles/RUN_TESTS.dir
+D:/progects_visual_studio/image_processing/prj.labs/lab01/build/CMakeFiles/ALL_BUILD.dir
+D:/progects_visual_studio/image_processing/prj.labs/lab01/build/CMakeFiles/ZERO_CHECK.dir

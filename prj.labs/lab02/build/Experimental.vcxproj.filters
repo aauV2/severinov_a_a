@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\793ab7c103f51c42233f63cb3eb1d7e1\Experimental.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\progects_visual_studio\image_processing\prj.labs\lab02\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\Experimental" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C5F30A8F-B204-3CEE-8F8D-CC7B9E697A5F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

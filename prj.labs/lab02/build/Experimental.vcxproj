@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DFCD74DF-EE1A-3FE1-B09A-BA03500DA858}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Experimental</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\793ab7c103f51c42233f63cb3eb1d7e1\Experimental.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\ctest.exe -C $(Configuration) -D Experimental
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\Experimental</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\ctest.exe -C $(Configuration) -D Experimental
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\Experimental</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\ctest.exe -C $(Configuration) -D Experimental
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\Experimental</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\ctest.exe -C $(Configuration) -D Experimental
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\Experimental</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\progects_visual_studio\image_processing\prj.labs\lab02\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/progects_visual_studio/image_processing/prj.labs/lab02/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/progects_visual_studio/image_processing/prj.labs/lab02 -BD:/progects_visual_studio/image_processing/prj.labs/lab02/build --check-stamp-file D:/progects_visual_studio/image_processing/prj.labs/lab02/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\CPack.cmake;D:\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.23\Modules\CTest.cmake;D:\CMake\share\cmake-3.23\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.23\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;D:\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;D:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeCCompiler.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeCXXCompiler.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeRCCompiler.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeSystem.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\lab02.report.md.in.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/progects_visual_studio/image_processing/prj.labs/lab02/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/progects_visual_studio/image_processing/prj.labs/lab02 -BD:/progects_visual_studio/image_processing/prj.labs/lab02/build --check-stamp-file D:/progects_visual_studio/image_processing/prj.labs/lab02/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\CPack.cmake;D:\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.23\Modules\CTest.cmake;D:\CMake\share\cmake-3.23\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.23\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;D:\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;D:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeCCompiler.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeCXXCompiler.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeRCCompiler.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeSystem.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\lab02.report.md.in.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/progects_visual_studio/image_processing/prj.labs/lab02/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/progects_visual_studio/image_processing/prj.labs/lab02 -BD:/progects_visual_studio/image_processing/prj.labs/lab02/build --check-stamp-file D:/progects_visual_studio/image_processing/prj.labs/lab02/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\CPack.cmake;D:\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.23\Modules\CTest.cmake;D:\CMake\share\cmake-3.23\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.23\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;D:\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;D:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeCCompiler.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeCXXCompiler.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeRCCompiler.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeSystem.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\lab02.report.md.in.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/progects_visual_studio/image_processing/prj.labs/lab02/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/progects_visual_studio/image_processing/prj.labs/lab02 -BD:/progects_visual_studio/image_processing/prj.labs/lab02/build --check-stamp-file D:/progects_visual_studio/image_processing/prj.labs/lab02/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\CPack.cmake;D:\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.23\Modules\CTest.cmake;D:\CMake\share\cmake-3.23\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.23\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;D:\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;D:\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;D:\opencv\build\x64\vc15\lib\OpenCVModules.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeCCompiler.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeCXXCompiler.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeRCCompiler.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\3.23.0-rc2\CMakeSystem.cmake;D:\progects_visual_studio\image_processing\prj.labs\lab02\lab02.report.md.in.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\progects_visual_studio\image_processing\prj.labs\lab02\build\CMakeFiles\Experimental">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\progects_visual_studio\image_processing\prj.labs\lab02\build\ZERO_CHECK.vcxproj">
+      <Project>{58BBCD2A-3D81-385A-B9CD-40F67CCC067D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

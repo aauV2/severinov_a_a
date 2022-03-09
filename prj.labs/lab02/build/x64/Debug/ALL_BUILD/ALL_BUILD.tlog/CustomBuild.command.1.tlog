@@ -1,0 +1,10 @@
+^D:\PROGECTS_VISUAL_STUDIO\IMAGE_PROCESSING\PRJ.LABS\LAB02\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SD:/progects_visual_studio/image_processing/prj.labs/lab02 -BD:/progects_visual_studio/image_processing/prj.labs/lab02/build --check-stamp-file D:/progects_visual_studio/image_processing/prj.labs/lab02/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

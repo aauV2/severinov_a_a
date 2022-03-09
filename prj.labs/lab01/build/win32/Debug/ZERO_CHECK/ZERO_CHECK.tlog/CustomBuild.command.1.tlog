@@ -1,0 +1,10 @@
+^D:\PROGECTS_VISUAL_STUDIO\IMAGE_PROCESSING\PRJ.LABS\LAB01\BUILD\CMAKEFILES\618BEEDB9701930BC5C1C1F114888015\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/progects_visual_studio/image_processing/prj.labs/lab01 -BD:/progects_visual_studio/image_processing/prj.labs/lab01/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/progects_visual_studio/image_processing/prj.labs/lab01/build/lab01.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

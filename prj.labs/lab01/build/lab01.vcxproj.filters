@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\progects_visual_studio\image_processing\prj.labs\lab01\lab01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\progects_visual_studio\image_processing\prj.labs\lab01\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\progects_visual_studio\image_processing\prj.labs\lab01\lab01.report.md.in.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FA9E9A29-480E-34E5-8F35-EE6AE5BB7DAF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
